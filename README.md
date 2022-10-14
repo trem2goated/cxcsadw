@@ -1,3 +1,5 @@
+arsenal gui
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Arsenal gui", "Sentinel")
 --Player
@@ -15,6 +17,11 @@ end)
 PlayerSection:NewButton("God Mode", "God Mode", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/trem2goated/god-mode-/main/README.md'))()
 end)
+
+PlayerSection:NewButton("God Mode", "God Mode", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trem2goated/god-mode-/main/README.md'))()
+end)
+
 --MAIN
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
